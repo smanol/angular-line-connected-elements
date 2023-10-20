@@ -1,1 +1,6 @@
-<p>draggable-element works!</p>
+<div ngDraggable  #elementRef (movingOffset)="onMoving($event)" [preventDefaultEvent]="true">
+  <p>draggable-element works!</p>
+  <p>X: {{ elementPosition.x }}px</p>
+  <p>Y: {{ elementPosition.y }}px</p>
+  <p>{{name}}</p>
+</div>

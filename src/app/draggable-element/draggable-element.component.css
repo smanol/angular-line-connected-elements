@@ -1,0 +1,14 @@
+div {
+  border: 1px solid black;
+  height: 100px;
+  width: 200px;
+  display: flex;
+  align-items: center;
+  background-color: wheat;
+
+}
+
+
+p {
+  padding: 10px;
+}
